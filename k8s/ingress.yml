@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: anthony-allen.com
+  - host: react-service.anthony-allen.com
     http:
       paths:
       - path: /
@@ -20,5 +20,5 @@ spec:
               number: 80
   tls:
   - hosts:
-    - anthony-allen.com
+    - react-service.anthony-allen.com
     secretName: react-microservice-template-tls
